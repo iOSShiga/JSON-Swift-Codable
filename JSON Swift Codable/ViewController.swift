@@ -43,10 +43,25 @@ class ViewController: UIViewController {
         
         // Json one Key with defferent type values
         
-        MultiTypeKey.multiTypeKeyValues()
+       // MultiTypeKey.multiTypeKeyValues()
+        
+        callQuoteResponse()
         
     }
 
+    
+    func callQuoteResponse() {
+        let data = Data(quotesResponseJson.utf8)
+        let decoder = JSONDecoder()
+        do {
+        let decodedResponse = try decoder.decode(QuotesResponse.self, from: data)
+            print(decodedResponse)
+        } catch  {
+            
+        }
+        
+        
+    }
     
 }
 
