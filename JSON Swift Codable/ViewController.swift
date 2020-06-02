@@ -4,7 +4,7 @@
 //
 //  Created by shiga on 22/01/20.
 //  Copyright © 2020 shiga. All rights reserved.
-//
+//https://medium.com/flawless-app-stories/complete-guide-to-codable-decodable-b1ff696da24f
 
 import UIKit
 
