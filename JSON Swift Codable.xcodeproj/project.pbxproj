@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1319CEE2486110500883439 /* Custom_Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1319CED2486110500883439 /* Custom_Key.swift */; };
 		D13CDA0C23FC35DE00AADD70 /* DifficultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13CDA0B23FC35DE00AADD70 /* DifficultResponse.swift */; };
 		D167EE0023D8B641001A3F3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D167EDFF23D8B641001A3F3E /* AppDelegate.swift */; };
 		D167EE0223D8B641001A3F3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D167EE0123D8B641001A3F3E /* SceneDelegate.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D1319CED2486110500883439 /* Custom_Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Key.swift; sourceTree = "<group>"; };
 		D13CDA0B23FC35DE00AADD70 /* DifficultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultResponse.swift; sourceTree = "<group>"; };
 		D167EDFC23D8B641001A3F3E /* JSON Swift Codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Swift Codable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D167EDFF23D8B641001A3F3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				D167EE3723D8C399001A3F3E /* Absence_Key_Value.swift */,
 				D167EE3923D8C987001A3F3E /* Same_Key_Type_Change.swift */,
 				D13CDA0B23FC35DE00AADD70 /* DifficultResponse.swift */,
+				D1319CED2486110500883439 /* Custom_Key.swift */,
 				D167EE0523D8B641001A3F3E /* Main.storyboard */,
 				D167EE0823D8B646001A3F3E /* Assets.xcassets */,
 				D167EE0A23D8B646001A3F3E /* LaunchScreen.storyboard */,
@@ -284,6 +287,7 @@
 				D167EE3A23D8C987001A3F3E /* Same_Key_Type_Change.swift in Sources */,
 				D167EE0423D8B641001A3F3E /* ViewController.swift in Sources */,
 				D167EE3223D8BB72001A3F3E /* JSON_Bad_Key_Naming.swift in Sources */,
+				D1319CEE2486110500883439 /* Custom_Key.swift in Sources */,
 				D167EE0023D8B641001A3F3E /* AppDelegate.swift in Sources */,
 				D167EE3023D8B71E001A3F3E /* JSON_Normal.swift in Sources */,
 				D167EE0223D8B641001A3F3E /* SceneDelegate.swift in Sources */,

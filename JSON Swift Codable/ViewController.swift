@@ -45,7 +45,9 @@ class ViewController: UIViewController {
         
        // MultiTypeKey.multiTypeKeyValues()
         
-        callQuoteResponse()
+        //callQuoteResponse()
+
+        PhotoFedd.jsonDecoder()
         
     }
 
