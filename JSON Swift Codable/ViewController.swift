@@ -11,6 +11,61 @@ import UIKit
 // Normal Json Coding
 
 
+let jsonString = """
+{
+"user": {
+"first_name": "Dave",
+"second_name": "Roberts"
+},
+
+"friends": [{
+"id": "AA0123",
+"first_name": "Jenny",
+"second_name": "Williams"
+},
+{
+"id": "B1235",
+"first_name": "Jerry",
+"second_name": "Mobley"
+}]
+}
+"""
+
+//Universal method
+
+struct EasyUM:Decodable {
+    var user: User
+    var friends: [Friends]
+}
+struct Friends: Decodable {
+    var id: String
+    var first_name: String
+    var second_name: String
+}
+struct User: Decodable {
+    var first_name: String
+    var second_name: String
+}
+
+// NestedStruct
+
+struct NestedStructs: Decodable {
+    var user: UserNested
+    var friends: [FriendsNested]
+
+    struct FriendsNested: Decodable {
+        var id: String
+        var first_name: String
+        var second_name: String
+    }
+    
+    struct UserNested: Decodable {
+        var first_name: String
+        var second_name: String
+    }
+}
+
+
 
 class ViewController: UIViewController {
 
